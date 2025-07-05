@@ -1,6 +1,20 @@
 # CC0E5-PC5 - Cryptoparty: Rompiendo cifrados simétricos con el algoritmo de Grover
 
 ## Scripts
+### `grovers_algorithm.py`
+
+Ejecuta el algoritmo de **Grover** con un oráculo configurable (`genérico` o `XOR`), utilizando **Qiskit** y simulación cuántica.
+
+```bash
+python -m quantum.grovers_algorithm
+```
+Este script construye un circuito cuántico de Grover, integra automáticamente un oráculo genérico o un oráculo XOR, simula el circuito usando `Qiskit Aer`, imprime el circuito completo en consola, muestra un histograma interactivo con los resultados y reporta el estado ganador junto con su frecuencia relativa.
+
+**Archivos relacionados**
+
+- `oracle/generic_oracle.py` marca un estado específico como solución
+- `oracle/xor_oracle.py` implementa un oráculo cuántico que compara `plaintext ⊕ key = ciphertext`.
+
 
 ### `classic_xor_encryption.py`
 
