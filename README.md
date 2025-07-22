@@ -1,4 +1,4 @@
-# CC0E5-PC5 - Cryptoparty: Rompiendo cifrados simétricos con el algoritmo de Grover
+# Cryptoparty: Rompiendo cifrados simétricos con el algoritmo de Grover
 
 ## Scripts
 ### `grovers_algorithm.py`
@@ -94,8 +94,8 @@ El script imprimirá en pantalla:
 
 ## Integrantes
 
-* Diego Akira García Rojas (Akira-13)
 * Ariana Camila López Julcarima (aclj20)
+* Diego Akira García Rojas (Akira-13)
 
 ## Requisitos
 
